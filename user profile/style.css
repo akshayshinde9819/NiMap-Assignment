@@ -1,0 +1,109 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "Rubik",sans-serif;
+    background: #b8b7b7;
+}
+
+.profile-card {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 250px;
+    border-radius: 5px;
+    background: #b8b7b7;
+    box-shadow: 10px 10px 15px #9c9c9c, -10px -10px 15px #d4d2d2;
+}
+
+.profile-carrd .profile-card-img img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    padding: 2px;
+    margin-bottom: -5px;
+   
+}.profile-carrd .profile-card-img {
+    padding: 20px 0;
+    border-radius: 5px 5px 0 0;
+    background: #17a2b8;
+}
+
+.profile-card .profile-card-title h2 {
+    color: #000;
+    font-size: 24px;
+    line-height: 1;
+    margin-bottom: -5px;
+}
+.profile-card .profile-card-title p {
+    margin-top: 5px;
+    font-size: 12px;
+    font-family: italic;
+}
+.profile-card .profile-card-btn {
+    margin: 20px 0;
+    padding: 15px 0;
+    border-top: 1px solid #afaaaa;
+    border-bottom: 1px solid #afaaaa;
+}
+.profile-card .profile-card-btn a {
+    color: #fff;
+    font-size: 14px;
+    text-decoration: none;
+    padding: 5px 15px;
+    border-radius: 3px;
+    transition: .3s;
+}
+
+.profile-card .profile-card-btn a.follow {
+    background: #28a745;
+}
+.profile-card .profile-card-btn a.message {
+    background: #17a2b8;
+}
+.profile-card .profile-card-btn a.follow:hover{
+    background: #267939;
+}
+.profile-card .profile-card-btn a.message:hover{
+    background: #1c6d79;
+}
+.profile-card .profile-card-text {
+    font-size: 12px;
+    color: #000;
+    line-height: 1.5;
+    padding: 0 10px;
+    margin-bottom: 20px;
+    font-style: italic;
+}
+.profile-card .profile-card-share-btn {
+    background: #17a2b8;
+    border-radius: 0 0 5px 5px;
+}
+.profile-card .profile-card-share-btn a .fa {
+    color: #fff;
+    margin: 10px;
+    overflow: hidden;
+    transition: .3s;
+}    
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.akshay {
+    margin-top: 10px;
+     width: 100px;
+     clip-path: circle();
+
+}
+.profile-card-share-btn .fa{
+    color: #000;
+}
